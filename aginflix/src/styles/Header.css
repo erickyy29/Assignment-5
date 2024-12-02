@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    color: #4caf50;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.auth-buttons a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #4caf50;
+}

@@ -1,0 +1,35 @@
+.feature-section {
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .movie-posters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .movie-poster {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .movie-poster img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .movie-poster img:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-rating {
+    background-color: #4caf50;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  

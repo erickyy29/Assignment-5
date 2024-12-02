@@ -1,0 +1,11 @@
+.detail-container {
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .detail-container img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
